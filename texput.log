@@ -1,0 +1,13 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2015.10.23)  7 APR 2017 03:38
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIM
+E COMMAND
+
+! Emergency stop.
+<*> USER 
+                       PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED    ...
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!

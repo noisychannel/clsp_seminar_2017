@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{Overview of the problem}{3}{0}{1}
+\beamer@sectionintoc {2}{Interfacing ASR and SMT}{9}{0}{2}
+\beamer@sectionintoc {3}{SMT strategies and results}{17}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{23}{0}{4}

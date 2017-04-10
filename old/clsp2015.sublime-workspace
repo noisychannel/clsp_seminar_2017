@@ -1,0 +1,297 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"al",
+				"algorithmic"
+			],
+			[
+				"big",
+				"Bigl"
+			],
+			[
+				"bigr",
+				"Bigr"
+			],
+			[
+				"bi",
+				"Bigr"
+			],
+			[
+				"eq",
+				"eqnarray"
+			],
+			[
+				"enu",
+				"enumerate"
+			],
+			[
+				"sub",
+				"subsubsection"
+			],
+			[
+				"subs",
+				"subsection"
+			],
+			[
+				"se",
+				"section	Section"
+			],
+			[
+				"algor",
+				"algorithm"
+			],
+			[
+				"us",
+				"usepackage"
+			],
+			[
+				"en",
+				"enumerate"
+			],
+			[
+				"sec",
+				"sec	Section"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Gaurav/Dropbox/Research/Papers/IS2015/template.tex",
+		"/Users/Gaurav/Dropbox/Research/Notes/Murphy_notes/Murphy_notes.tex",
+		"/Users/Gaurav/Dropbox/Research/Papers/IEEE_SLT_2014/Template.tex",
+		"/Users/Gaurav/Dropbox/Research/IBM/IBM proposals.tex",
+		"/Users/Gaurav/Dropbox/Research/IBM/IBM proposals",
+		"/Users/Gaurav/Dropbox/Research/Papers/ML Overview/Curve Fitting.tex",
+		"/Users/Gaurav/Dropbox/Research/Papers/BPTI-paper/Template.tex",
+		"/Users/Gaurav/Dropbox/JHU/600.666 IE/ie.sublime-project",
+		"/Users/Gaurav/Dropbox/Research/Papers/BPTI-paper/main.tex",
+		"/Users/Gaurav/Dropbox/Ph.D. applications - 2013/Resume-GK-13-11-25.tex",
+		"/Users/Gaurav/Dropbox/JHU/600.615 BDSLSS/Project report/writeup_draft.tex",
+		"/Users/Gaurav/Dropbox/Ph.D. applications - 2013/University SOPs/UW/UW-SOP.tex",
+		"/Users/Gaurav/Dropbox/Ph.D. applications - 2013/University SOPs/Columbia/Columbia-SOP.tex",
+		"/Users/Gaurav/Dropbox/Ph.D. applications - 2013/University SOPs/MIT/MIT-SOP.tex",
+		"/Users/Gaurav/Dropbox/Ph.D. applications - 2013/University SOPs/Cornell/Cornell-SOP.tex",
+		"/Users/Gaurav/Dropbox/Ph.D. applications - 2013/University SOPs/Cornell/spconf.sty",
+		"/Users/Gaurav/Dropbox/Ph.D. applications - 2013/University SOPs/UMD/UMD-SOP.tex",
+		"/Users/Gaurav/Dropbox/Ph.D. applications - 2013/University SOPs/CMU/CMU-SOP.tex",
+		"/Users/Gaurav/Dropbox/Ph.D. applications - 2013/Resume-GK-13-11-25.synctex.gz",
+		"/Users/Gaurav/Dropbox/Ph.D. applications - 2013/SOP.tex",
+		"/Users/Gaurav/Dropbox/Ph.D. applications - 2013/University SOPs/JHU/JHU-SOP.tex",
+		"/Users/Gaurav/Dropbox/Ph.D. applications - 2013/University SOPs/Stanford/Stanford-SOP.tex",
+		"/Users/Gaurav/Dropbox/Ph.D. applications - 2013/spconf.sty",
+		"/Users/Gaurav/Dropbox/Ph.D. applications - 2013/Gaurav-SOP.pdf",
+		"/Users/Gaurav/Dropbox/Ph.D. applications - 2013/res.cls",
+		"/Users/Gaurav/Dropbox/Research/icassp2013/ICASSP.tex",
+		"/Users/Gaurav/Dropbox/Research/icassp2013/IEEEbib.bst",
+		"/Users/Gaurav/Dropbox/Research/icassp2013/ICASSP.bib",
+		"/Users/Gaurav/Dropbox/Research/icassp2013/ICASSP.pdf",
+		"/Users/Gaurav/Dropbox/Research/icassp2013/ICASSP.log",
+		"/Users/Gaurav/Dropbox/Research/icassp2013/ICASSP.bbl",
+		"/Users/Gaurav/Dropbox/Research/icassp2013/strings.bib",
+		"/Users/Gaurav/Dropbox/Research/icassp2013/refs.bib",
+		"/Users/Gaurav/Dropbox/Research/icassp2013/ICASSP.blg",
+		"/Users/Gaurav/Dropbox/Research/ICASSP 2014/Template.tex",
+		"/Users/Gaurav/Documents/strings.bib",
+		"/Users/Gaurav/Documents/IWSLT.bib",
+		"/Users/Gaurav/Documents/iwslt.tex",
+		"/Users/Gaurav/Dropbox/JHU/600.676 ML In complex domains/Project/projGKLB.tex",
+		"/Users/Gaurav/Dropbox/Research/ICASSP 2014/spconf.sty",
+		"/Users/Gaurav/Dropbox/Research/ICASSP 2014/Template.pdf",
+		"/Users/Gaurav/Dropbox/JHU/600.676 ML In complex domains/Homeworks/final/final-exam-gkumar6.tex",
+		"/Users/Gaurav/Dropbox/JHU/600.676 ML In complex domains/Homeworks/final/final.tex",
+		"/Users/Gaurav/Dropbox/JHU/600.676 ML In complex domains/Homeworks/hw3/homework 3.tex",
+		"/Users/Gaurav/Dropbox/JHU/600.676 ML In complex domains/Homeworks/hw2/homework 1.tex",
+		"/Users/Gaurav/Dropbox/JHU/600.676 ML In complex domains/Project/projGKLB-v2.0.tex",
+		"/Users/Gaurav/Dropbox/JHU/600.676 ML In complex domains/Homeworks/hw1/homework 1.tex",
+		"/Users/Gaurav/Dropbox/JHU/600.676 ML In complex domains/hw-mlcd.sublime-project",
+		"/Users/Gaurav/Dropbox/JHU/600.676 ML In complex domains/Homeworks/hw-mlcd.sublime-workspace",
+		"/Users/Gaurav/Dropbox/JHU/600.475 ML/Homeworks/homework7/homework 7.tex"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"figure",
+			"image",
+			"' ",
+			"double",
+			"arabtex",
+			"english).",
+			"english)",
+			"english",
+			"...",
+			"ref here",
+			"C2",
+			"running",
+			"ref here",
+			"ref",
+			" \n",
+			"modeler",
+			"stanfo",
+			"fontsize",
+			"pt",
+			"IBM",
+			"Zhou",
+			"IBM",
+			"GALE",
+			"gale arabic",
+			"change",
+			"change.case",
+			"format.names",
+			"Since the ASR",
+			"lamel",
+			"joshua",
+			"post",
+			"gale",
+			"kumar",
+			" \\\\",
+			"bertoldi_speech_2007",
+			"coffee",
+			"@inproceedings{povey_kaldi_2011,\n	address = {Hilton Waikoloa Village, Big Island, Hawaii, {US}},\n	title = {The Kaldi Speech Recognition Toolkit},\n	booktitle = {{IEEE} 2011 Workshop on Automatic Speech Recognition and Understanding},\n	publisher = {{IEEE} Signal Processing Society},\n	author = {Povey, Daniel and Ghoshal, Arnab and Boulianne, Gilles and Burget, Lukas and Glembek, Ondrej and Goel, Nagendra and Hannemann, Mirko and Motlicek, Petr and Qian, Yanmin and Schwarz, Petr and Silovsky, Jan and Stemmer, Georg and Vesely, Karel},\n	month = dec,\n	year = {2011},\n	note = {{IEEE} Catalog No.: {CFP11SRW-USB}},\n	keywords = {{ASR}, Automatic Speech Recognition, {GMM}, {HTK}, {SGMM}}\n},",
+			"biblio",
+			"image",
+			"}{}",
+			"table",
+			"eq:cond",
+			"x",
+			"'",
+			"1",
+			"$",
+			"enumerate",
+			"date",
+			"}\\\\"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Arabic",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 87.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 210.0,
+	"status_bar_visible": true
+}
