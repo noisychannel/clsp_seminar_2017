@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 APR 2017 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 APR 2017 10:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1084,97 +1084,91 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [14]
 File: jhu.pdf Graphic file (type pdf)
  <use jhu.pdf>
-Package pdftex.def Info: jhu.pdf used on input line 289.
+Package pdftex.def Info: jhu.pdf used on input line 287.
 (pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][][]
  []
 
-[15] <images/coverage.png, id=86, 799.98875pt x 953.5625pt>
+[15]
+File: jhu.pdf Graphic file (type pdf)
+ <use jhu.pdf>
+Package pdftex.def Info: jhu.pdf used on input line 301.
+(pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][][]
+ []
+
+[16] <images/coverage.png, id=89, 799.98875pt x 953.5625pt>
 File: images/coverage.png Graphic file (type png)
 
 <use images/coverage.png>
-Package pdftex.def Info: images/coverage.png used on input line 295.
+Package pdftex.def Info: images/coverage.png used on input line 307.
 (pdftex.def)             Requested size: 159.99492pt x 190.70912pt.
 File: jhu.pdf Graphic file (type pdf)
  <use jhu.pdf>
-Package pdftex.def Info: jhu.pdf used on input line 306.
+Package pdftex.def Info: jhu.pdf used on input line 318.
 (pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][][]
  []
 
-[16 <./images/coverage.png>]
+[17 <./images/coverage.png>]
 File: jhu.pdf Graphic file (type pdf)
  <use jhu.pdf>
-Package pdftex.def Info: jhu.pdf used on input line 315.
+Package pdftex.def Info: jhu.pdf used on input line 327.
 (pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][][]
  []
 
-[17]
+[18]
 File: jhu.pdf Graphic file (type pdf)
  <use jhu.pdf>
-Package pdftex.def Info: jhu.pdf used on input line 326.
+Package pdftex.def Info: jhu.pdf used on input line 339.
 (pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][][]
  []
 
-[18] <images/graph.pdf, id=97, 570.29572pt x 339.84546pt>
+[19] <images/graph.pdf, id=100, 570.29572pt x 339.84546pt>
 File: images/graph.pdf Graphic file (type pdf)
 
 <use images/graph.pdf>
-Package pdftex.def Info: images/graph.pdf used on input line 329.
+Package pdftex.def Info: images/graph.pdf used on input line 342.
 (pdftex.def)             Requested size: 684.35143pt x 407.8125pt.
 File: jhu.pdf Graphic file (type pdf)
  <use jhu.pdf>
-Package pdftex.def Info: jhu.pdf used on input line 335.
+Package pdftex.def Info: jhu.pdf used on input line 348.
 (pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][][]
  []
 
-[19 <./images/graph.pdf>]
+[20 <./images/graph.pdf>]
 File: jhu.pdf Graphic file (type pdf)
  <use jhu.pdf>
-Package pdftex.def Info: jhu.pdf used on input line 345.
+Package pdftex.def Info: jhu.pdf used on input line 358.
 (pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][][]
  []
 
-[20] <images/stack1.pdf, id=130, 536.11841pt x 304.17178pt>
+[21] <images/stack1.pdf, id=133, 536.11841pt x 304.17178pt>
 File: images/stack1.pdf Graphic file (type pdf)
 
 <use images/stack1.pdf>
-Package pdftex.def Info: images/stack1.pdf used on input line 348.
+Package pdftex.def Info: images/stack1.pdf used on input line 361.
 (pdftex.def)             Requested size: 643.33885pt x 365.00429pt.
 File: jhu.pdf Graphic file (type pdf)
  <use jhu.pdf>
-Package pdftex.def Info: jhu.pdf used on input line 354.
-(pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[][][]
- []
-
-[21 <./images/stack1.pdf>]
-<images/stack2.png, id=156, 1328.965pt x 832.10875pt>
-File: images/stack2.png Graphic file (type png)
- <use images/stack2.png>
-Package pdftex.def Info: images/stack2.png used on input line 357.
-(pdftex.def)             Requested size: 398.69258pt x 249.63455pt.
-File: jhu.pdf Graphic file (type pdf)
-
-<use jhu.pdf>
 Package pdftex.def Info: jhu.pdf used on input line 367.
 (pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
 
@@ -1182,43 +1176,49 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [][][]
  []
 
-[22 <./images/stack2.png>]
-<images/recombination1.pdf, id=160, 302.98213pt x 99.2803pt>
+[22 <./images/stack1.pdf>]
+<images/stack2.png, id=159, 1328.965pt x 832.10875pt>
+File: images/stack2.png Graphic file (type png)
+ <use images/stack2.png>
+Package pdftex.def Info: images/stack2.png used on input line 370.
+(pdftex.def)             Requested size: 398.69258pt x 249.63455pt.
+File: jhu.pdf Graphic file (type pdf)
+
+<use jhu.pdf>
+Package pdftex.def Info: jhu.pdf used on input line 380.
+(pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][][]
+ []
+
+[23 <./images/stack2.png>]
+<images/recombination1.pdf, id=163, 302.98213pt x 99.2803pt>
 File: images/recombination1.pdf Graphic file (type pdf)
 
 <use images/recombination1.pdf>
-Package pdftex.def Info: images/recombination1.pdf used on input line 370.
+Package pdftex.def Info: images/recombination1.pdf used on input line 383.
 (pdftex.def)             Requested size: 302.98138pt x 99.28004pt.
 
-<images/recombination2.pdf, id=161, 305.35368pt x 96.10484pt>
+<images/recombination2.pdf, id=164, 305.35368pt x 96.10484pt>
 File: images/recombination2.pdf Graphic file (type pdf)
 
 <use images/recombination2.pdf>
-Package pdftex.def Info: images/recombination2.pdf used on input line 371.
+Package pdftex.def Info: images/recombination2.pdf used on input line 384.
 (pdftex.def)             Requested size: 305.35294pt x 96.1046pt.
 File: jhu.pdf Graphic file (type pdf)
  <use jhu.pdf>
-Package pdftex.def Info: jhu.pdf used on input line 382.
+Package pdftex.def Info: jhu.pdf used on input line 395.
 (pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][][]
  []
 
-[23 <./images/recombination1.pdf> <./images/recombination2.pdf>]
+[24 <./images/recombination1.pdf> <./images/recombination2.pdf>]
 File: jhu.pdf Graphic file (type pdf)
  <use jhu.pdf>
-Package pdftex.def Info: jhu.pdf used on input line 392.
-(pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[][][]
- []
-
-[24]
-File: jhu.pdf Graphic file (type pdf)
- <use jhu.pdf>
-Package pdftex.def Info: jhu.pdf used on input line 402.
+Package pdftex.def Info: jhu.pdf used on input line 405.
 (pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1228,99 +1228,152 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [25]
 File: jhu.pdf Graphic file (type pdf)
  <use jhu.pdf>
-Package pdftex.def Info: jhu.pdf used on input line 411.
+Package pdftex.def Info: jhu.pdf used on input line 415.
 (pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][][]
  []
 
-[26] <images/smtBetter.png, id=231, 858.5676pt x 564.1878pt>
+[26]
+File: jhu.pdf Graphic file (type pdf)
+ <use jhu.pdf>
+Package pdftex.def Info: jhu.pdf used on input line 425.
+(pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][][]
+ []
+
+[27] <images/smtBetter.png, id=234, 858.5676pt x 564.1878pt>
 File: images/smtBetter.png Graphic file (type png)
 
 <use images/smtBetter.png>
-Package pdftex.def Info: images/smtBetter.png used on input line 414.
+Package pdftex.def Info: images/smtBetter.png used on input line 428.
 (pdftex.def)             Requested size: 600.99321pt x 394.92876pt.
 File: jhu.pdf Graphic file (type pdf)
  <use jhu.pdf>
-Package pdftex.def Info: jhu.pdf used on input line 420.
+Package pdftex.def Info: jhu.pdf used on input line 434.
 (pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][][]
  []
 
-[27 <./images/smtBetter.png>]
-<images/nmtBetter.png, id=235, 858.5676pt x 564.1878pt>
+[28 <./images/smtBetter.png>]
+<images/nmtBetter.png, id=238, 858.5676pt x 564.1878pt>
 File: images/nmtBetter.png Graphic file (type png)
 
 <use images/nmtBetter.png>
-Package pdftex.def Info: images/nmtBetter.png used on input line 423.
+Package pdftex.def Info: images/nmtBetter.png used on input line 437.
 (pdftex.def)             Requested size: 600.99321pt x 394.92876pt.
 File: jhu.pdf Graphic file (type pdf)
  <use jhu.pdf>
-Package pdftex.def Info: jhu.pdf used on input line 429.
+Package pdftex.def Info: jhu.pdf used on input line 443.
 (pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][][]
  []
 
-[28 <./images/nmtBetter.png>]
-<images/thresholds.png, id=239, 858.5676pt x 564.6696pt>
+[29 <./images/nmtBetter.png>]
+<images/thresholds.png, id=242, 858.5676pt x 564.6696pt>
 File: images/thresholds.png Graphic file (type png)
 
 <use images/thresholds.png>
-Package pdftex.def Info: images/thresholds.png used on input line 432.
+Package pdftex.def Info: images/thresholds.png used on input line 446.
 (pdftex.def)             Requested size: 600.99321pt x 395.26602pt.
 File: jhu.pdf Graphic file (type pdf)
  <use jhu.pdf>
-Package pdftex.def Info: jhu.pdf used on input line 438.
+Package pdftex.def Info: jhu.pdf used on input line 452.
 (pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][][]
  []
 
-[29 <./images/thresholds.png>]
+[30 <./images/thresholds.png>]
+LaTeX Font Info:    Try loading font information for OML+ppl on input line 459.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlppl.fd
+File: omlppl.fd 
+)
+LaTeX Font Info:    Font shape `OML/ppl/m/n' in size <20.74> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 459.
 File: jhu.pdf Graphic file (type pdf)
  <use jhu.pdf>
-Package pdftex.def Info: jhu.pdf used on input line 441.
+Package pdftex.def Info: jhu.pdf used on input line 466.
 (pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][][]
  []
 
-[30] (./lattice.aux) ) 
+[31]
+File: jhu.pdf Graphic file (type pdf)
+ <use jhu.pdf>
+Package pdftex.def Info: jhu.pdf used on input line 479.
+(pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][][]
+ []
+
+[32]
+Underfull \hbox (badness 2318) in paragraph at lines 486--487
+[]|[]\OT1/ppl/m/n/20.74 From the prosecutor's office of Yuzhno-Sakhalinsk came
+ []
+
+File: jhu.pdf Graphic file (type pdf)
+<use jhu.pdf>
+Package pdftex.def Info: jhu.pdf used on input line 492.
+(pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][][]
+ []
+
+[33]
+File: jhu.pdf Graphic file (type pdf)
+ <use jhu.pdf>
+Package pdftex.def Info: jhu.pdf used on input line 499.
+(pdftex.def)             Requested size: 148.55463pt x 160.59955pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][][]
+ []
+
+[34] (./lattice.aux) ) 
 Here is how much of TeX's memory you used:
- 15907 strings out of 493014
- 303926 string characters out of 6133351
+ 15927 strings out of 493014
+ 304261 string characters out of 6133351
  348154 words of memory out of 5000000
- 19075 multiletter control sequences out of 15000+600000
- 21506 words of font info for 59 fonts, out of 8000000 for 9000
+ 19091 multiletter control sequences out of 15000+600000
+ 21864 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,411b,311s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/
 8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 0.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10
 .pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pf
-b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on lattice.pdf (31 pages, 802756 bytes).
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.p
+fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on lattice.pdf (35 pages, 820233 bytes).
 PDF statistics:
- 293 PDF objects out of 1000 (max. 8388607)
+ 309 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  88 words of extra memory for PDF output out of 10000 (max. 10000000)
 

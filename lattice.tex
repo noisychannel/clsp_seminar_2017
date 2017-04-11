@@ -147,12 +147,12 @@ Joint learning of alignment and translation (\textit{Bahdanau et al., 2015})
 		\end{align*}}
 		where $s_j \in \mathbb{R}^n$ is the hidden state at time $j$, $c$ is the context
 		vector generated from the hidden states and $r$ and $q$ are some non-linear functions. 
-	\item \textbf{Decoder} : Predict $e_i$ given $e_1 , \cdots , e_{i-1}$ and the context $c$.
+	\item \textbf{Decoder} : Predict $e_i$ given $e_1 , \cdots , e_{i-1}$ and the context $c_i$.
 	\maths{\begin{align*}
 		% & p({\bf y}) = \prod_{t=1}^{T} p(y_t | \{y_1 , \cdots , y_{t-1}\}, c) && (\text{Joint probability})\\
 		% & p(y_t | \{y_1 , \cdots , y_{t-1}\}, c) = g(y_{t-1}, s_t, c) && (\text{Conditional probability})
-		& p({\bf e}) = \prod_{i=1}^{I} p(e_i | \{e_1 , \cdots , e_{i-1}\}, c) && (\text{Joint probability})\\
-		& p(e_t | \{e_1 , \cdots , e_{i-1}\}, c) = g(e_{i-1}, t_i, c) && (\text{Conditional probability})
+		& p({\bf e}) = \prod_{i=1}^{I} p(e_i | \{e_1 , \cdots , e_{i-1}\}, c_i) && (\text{Joint probability})\\
+		& p(e_t | \{e_1 , \cdots , e_{i-1}\}, c_i) = g(e_{i-1}, t_i, c_i) && (\text{Conditional probability})
 		\end{align*}}
 		where $t_i$ is the hidden state of the RNN and $g$ is some non-linear 
 		function that outputs a probability. 
@@ -206,8 +206,8 @@ Joint learning of alignment and translation (\textit{Bahdanau et al., 2015})
 \end{figure}
 Current research
 \begin{itemize}
-\item Transfer learning : Zoph et al., 2016
-\item Multi-way, multi-lingual NMT : Firat et al., 2016
+\item Transfer learning : \textit{Zoph et al., 2016}
+\item Multi-way, multi-lingual NMT : \textit{Firat et al., 2016}
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -265,10 +265,10 @@ An example from Romanian-English (newstest2016):\\
 \vspace{10mm}
 Current Research
 \begin{itemize}
-\item Subword translation (Sennrich et al., 2015)
-\item Character level NMT (Ling et al., 2015)
-\item Incorporations of lexicons (Arthur et al., 2016)
-\item Tracking source words which produced OOVs (Luong et al., 2015)
+\item Subword translation (\textit{Sennrich et al., 2015})
+\item Character level NMT (\textit{Ling et al., 2015})
+\item Incorporations of lexicons (\textit{Arthur et al., 2016})
+\item Tracking source words which produced OOVs (\textit{Luong et al., 2015})
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -281,6 +281,18 @@ Current Research
 \textbf{NMT} & \textcolor{darkgreen}{ban called on the five permanent members of the lib dems to give \textbf{pumpkins of solidarity with the arthritis unit} , then the cudgel reeled it sunk nkey an agreement on iran 's nuclear weapons , to handle the crisis in syria .}
 \end{tabular}
 \captionof{table}{An example translation from the Romanian-English newstest2016 test set.} 
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\slide{NMT Challenges : Length ratios \& hallucination}
+\vspace{10mm}
+\begin{center}
+\begin{tabular}{|p{3cm}|p{20cm}|}
+\textbf{Ref} & It probably won't be Vesely.\\[1cm] \hline \hline
+\textbf{Moses} & \textcolor{verydarkorange}{It probably won't be happy.} \\[1cm] \hline \hline
+\textbf{NMT} & \textcolor{darkgreen}{No.}
+\end{tabular}
+\captionof{table}{An example translation from the Czech-English newstest2016 test set.} 
 \end{center}
 
 
@@ -298,8 +310,8 @@ Current Research
 \end{figure}
 Current Research: 
 \begin{itemize}
-\item Modeling coverage vectors (Tu et al., 2016, Mi et al., 2016)
-\item Supervised alignments (Liu et al., 2016)
+\item Modeling coverage vectors (\textit{Tu et al., 2016, Mi et al., 2016})
+\item Supervised alignments (\textit{Liu et al., 2016})
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -315,10 +327,11 @@ We plan to combine these benefits by using the SMT system to \textbf{constrain t
 \slide{Related work}
 \begin{itemize}
 \item \textbf{System combination} : Using $n$-best lists for combination (via features or otherwise) for multiple NMT and SMT systems if common.
-\item \textbf{Moses with NMT features} : Use the NMT score as a feature in PBMT (Junczys-Dowmunt et al., 2016).
-\item \textbf{Promoting diversity in beam search} (Vijayakumar et al., 2016) 
-\item \textbf{Using alternate objective functions} while training NMT systems to increase diversity (Li et al., 2016)
-\item \textbf{Minimize Bayes risk with respect to lattices} (Stahlberg et al., 2017)
+\item \textbf{Moses with NMT features} : Use the NMT score as a feature in PBMT (\textit{Junczys-Dowmunt et al., 2016}).
+\item \textbf{Promoting diversity in beam search} (\textit{Vijayakumar et al., 2016}) 
+\item \textbf{Syntactically guided NMT} (\textit{Stahlberg et al., 2016}) 
+\item \textbf{Using alternate objective functions} while training NMT systems to increase diversity (\textit{Li et al., 2016})
+\item \textbf{Minimize Bayes risk with respect to lattices} (\textit{Stahlberg et al., 2017})
 \end{itemize}
 
 
@@ -402,10 +415,11 @@ For lattice re-scoring with stacks:
 \slide{Experiments}
 \vspace{10mm}
 \begin{itemize}
-\item
-\item
+\item \textbf{Datasets} : Eight WMT2016 (newstest2016) test sets (CS-EN, EN-CS, DE-EN, EN-DE, RU-EN, EN-RU, RO-EN, EN-RO)
+\item \textbf{SMT baseline} : JHU's WMT2016 PBMT submission (\textit{Ding et al., 2016})
+\item \textbf{NMT baseline} : Edinburgh's WMT2016 submission (\textit{Senrich et al., 2016})
+\item \textbf{NMT $n$-best baseline} : SMT best scored with the strongest NMT model)
 \end{itemize}
-Desc datasets, systems
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \slide{Results: SMT better, NMT worse}
@@ -430,12 +444,56 @@ Desc datasets, systems
 \begin{figure}
 \begin{center}
 \includegraphics[scale=0.7]{images/thresholds.png}
-\caption{}
+\caption{Performance when varying the pruning threshold for lattices.}
 \end{center}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\slide{Are the lattices deep enough?}
+\vspace{60mm}
+\begin{table}
+\centering
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+                                               & cs-en   & de-en   & en-cs   & en-de   \\ \hline
+LatticeScore \textgreater= Nbest               & 94.96\% & 94.83\% & 98.43\% & 92.86\% \\ \hline
+Search error when LatticeScore \textless Nbest & 96.69\% & 80\%    & 85.11\% & 94.39\% \\ \hline
+\end{tabular}
+\caption{Search error occurrence in lattice rescoring.}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\slide{Example Translations}
+\vspace{10mm}
+\begin{center}
+\begin{tabular}{|p{3cm}|p{20cm}|}
+\textbf{Ref} & "Let them comment on such stupidity themselves", he said.\\[1cm] \hline \hline
+\textbf{Moses} & \textcolor{verydarkorange}{"Let themselves covering such stupidity," he said.} \\[1cm] \hline \hline
+\textbf{NMT} & \textcolor{darkgreen}{"The let alone comments such stupidity," he said.}\\[1cm] \hline \hline
+\textbf{Lattice} & \textcolor{darkgreen}{" Let themselves comment on such stupidity, " he said.}
+\end{tabular}
+\captionof{table}{An example translation from the Russian-English newstest2016 test set.} 
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\slide{Example Translations}
+\vspace{10mm}
+\begin{center}
+\begin{tabular}{|p{3cm}|p{20cm}|}
+\textbf{Ref} & An appeal from the Yuzhno-Sakhalinsk Prosecutor's Office was received Friday evening.\\[1cm] \hline \hline
+\textbf{Moses} & \textcolor{verydarkorange}{From prosecutors Yuzhno-Sakhalinsk came appeals complaint on Friday evening.}\\[1cm] \hline \hline
+\textbf{NMT} & \textcolor{darkgreen}{An appeal complaint was issued on Friday evening.}\\[1cm] \hline \hline
+\textbf{Lattice} & \textcolor{darkgreen}{From the prosecutor's office of Yuzhno-Sakhalinsk came appeals complaint on Friday evening.}
+\end{tabular}
+\captionof{table}{An example translation from the Russian-English newstest2016 test set.} 
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \slide{Domain Adaptation, Low Resource}
-Graphs here
+\begin{itemize}
+\item Work in progress
+\item Hypothesis : Lattice rescoring's strongest gains may be on language pairs where the domains do not match or we do not have enough training data.
+\item Possibly allows the advantage of SMT robustness combined with fluent NMT models, to shine. 
+\end{itemize}
 
 \end{document}
